@@ -12,7 +12,7 @@ function drawPlayer1()
     // context.beginPath();
     // context.arc(x, y, radius, 0, 360 * Math.PI / 180, true);
 
-context.beginPath();
+// context.beginPath();
 context.fillStyle = "#FF0000"; 
 context.fillRect(20, 20, 150, 100);
     
