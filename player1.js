@@ -22,4 +22,4 @@ context.fillRect(20, 20, 150, 100);
 //    y = y + ySpeed;
    
 }
-
+setInterval(drawPlayer1, 20);
