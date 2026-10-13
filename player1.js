@@ -1,9 +1,8 @@
 var canvas = document.getElementById("myCanvas");
 var context = canvas.getContext("2d");
 
-var x = 250;
-var y = 125;
-var rectColor = "black";
+
+
 
 function drawPlayer1()
 {
@@ -24,4 +23,3 @@ context.fillRect(20, 20, 150, 100);
    
 }
 
-setInterval(drawPlayer1, 20);
