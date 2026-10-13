@@ -6,7 +6,7 @@ var context = canvas.getContext("2d");
 
 function drawPlayer1()
 {
-    context.clearRect(0, 0, canvas.width, canvas.height);
+    // context.clearRect(0, 0, canvas.width, canvas.height);
 
     // context.beginPath();
     // context.arc(x, y, radius, 0, 360 * Math.PI / 180, true);

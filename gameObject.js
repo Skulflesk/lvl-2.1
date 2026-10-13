@@ -10,7 +10,7 @@ var ballColor = "black";
 
 function drawBall()
 {
-    // context.clearRect(0, 0, canvas.width, canvas.height);
+    context.clearRect(0, 0, canvas.width, canvas.height);
 
     context.beginPath();
     context.arc(x, y, radius, 0, 360 * Math.PI / 180, true);
@@ -30,28 +30,28 @@ function drawBall()
     {
         x = canvas.width - radius;
       xSpeed = -xSpeed
-      xSpeed = xSpeed* 1.1;
+      xSpeed = xSpeed* 1.01;
       ballColor = "blue";
     }
     if (x - radius <= 0)
     {
        x = radius;
         xSpeed = -xSpeed
-         xSpeed = xSpeed* 1.1;
+         xSpeed = xSpeed* 1.01;
         ballColor = "red";
     }
       if (y + radius >= canvas.height)
     {
         y = canvas.height - radius;
       ySpeed = -ySpeed
-      ySpeed = ySpeed * 1.1;
+      ySpeed = ySpeed * 1.01;
       ballColor = "yellow";
     }
     if (y - radius <= 0)
     {
        y = radius;
         ySpeed = -ySpeed
-        ySpeed = ySpeed * 1.1;
+        ySpeed = ySpeed * 1.01;
         ballColor = "green";
     }
 
