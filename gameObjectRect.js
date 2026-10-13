@@ -15,8 +15,8 @@ function drawRect()
     context.fill();
 
     
-   x = x + xSpeed;
-   y = y + ySpeed;
+//    x = x + xSpeed;
+//    y = y + ySpeed;
    
 }
 
