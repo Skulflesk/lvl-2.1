@@ -14,6 +14,8 @@ function drawPlayer1()
 // context.beginPath();
 context.fillStyle = "#FF0000"; 
 context.fillRect(20, 20, 150, 100);
+x = 200;
+y = 200;
     
     
 
