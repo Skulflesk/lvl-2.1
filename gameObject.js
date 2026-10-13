@@ -1,3 +1,6 @@
+var canvas = document.getElementById("myCanvas");
+var context = canvas.getContext("2d");
+
 var x = 500;
 var y = 250;
 var radius = 30;
