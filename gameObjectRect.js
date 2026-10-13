@@ -2,7 +2,7 @@ var x = 100;
 var y = 100;
 var rectColor = "black";
 
-unction drawRect()
+function drawRect()
 {
     context.clearRect(0, 0, canvas.width, canvas.height);
 
@@ -18,4 +18,6 @@ unction drawRect()
    x = x + xSpeed;
    y = y + ySpeed;
    
-    
+}
+
+setInterval(drawRect, 20);
