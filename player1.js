@@ -5,7 +5,7 @@ var x = 250;
 var y = 125;
 var rectColor = "black";
 
-function drawRect()
+function drawPlayer1()
 {
     // context.clearRect(0, 0, canvas.width, canvas.height);
 
@@ -13,9 +13,10 @@ function drawRect()
     // context.arc(x, y, radius, 0, 360 * Math.PI / 180, true);
 
     
-
-    context.fillStyle = rectColor;
-    context.fill();
+context.fillStyle = "#FF0000"; // Set color to Red
+context.fillRect(20, 20, 150, 100);
+    
+    
 
     
 //    x = x + xSpeed;
@@ -23,4 +24,4 @@ function drawRect()
    
 }
 
-setInterval(drawRect, 20);
+setInterval(drawPlayer1, 20);
