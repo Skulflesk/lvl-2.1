@@ -12,7 +12,7 @@ function drawBall()
     // context.beginPath();
     // context.arc(x, y, radius, 0, 360 * Math.PI / 180, true);
 
-    draw.rect
+    
 
     context.fillStyle = ballColor;
     context.fill();
